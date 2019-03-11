@@ -1,18 +1,21 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        doNothingTwiceAsHard();
+        String greeting = "   Hello World    ";
+        System.out.println(complexGreetingProcessor(greeting));
+        doNothingTwiceAsHard()
         doNothing();
     }
 
-    private static void doNothing(){
+    private static void doNothing() {
         System.out.println("nothing");
-        return;
     }
 
-    private static void doNothingTwiceAsHard(){
+    private static String complexGreetingProcessor(String greeting) {
+        return greeting.trim();
+    }
+
+    private static void doNothingTwiceAsHard() {
         System.out.println("nothing");
-        return;
     }
 }
