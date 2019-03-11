@@ -2,14 +2,16 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
+        doNothing();
+        doNothingTwiceAsHard();
     }
 
-    private void doNothing(){
+    private static void doNothing(){
         System.out.println("nothing");
         return;
     }
 
-    private void doNothingTwiceAsHard(){
+    private static void doNothingTwiceAsHard(){
         System.out.println("nothing");
         return;
     }
