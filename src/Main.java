@@ -1,10 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
-        return;
         String greeting = "   Hello Wrodl    ";
-        System.out.println(complexGreetingProcessor(greeting));
-        doNothingTwiceAsHard()
+        System.out.println(complexGreetingProcessor(null ));
+        doNothingTwiceAsHard();
         System.out.println("debug log line");
         doNothing();
     }
