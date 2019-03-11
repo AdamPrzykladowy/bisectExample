@@ -3,8 +3,9 @@ public class Main {
     public static void main(String[] args) {
         String greeting = "   Hello Wrodl    ";
         System.out.println(complexGreetingProcessor(null ));
+        System.out.println("debug log line1");
         doNothingTwiceAsHard();
-        System.out.println("debug log line");
+        System.out.println("debug log line2");
         doNothing();
     }
 
