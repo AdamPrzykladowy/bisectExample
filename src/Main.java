@@ -8,4 +8,9 @@ public class Main {
         System.out.println("nothing");
         return;
     }
+
+    private void doNothingTwiceAsHard(){
+        System.out.println("nothing");
+        return;
+    }
 }
