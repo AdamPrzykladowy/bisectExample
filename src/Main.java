@@ -5,6 +5,7 @@ public class Main {
         String greeting = "   Hello Wrodl    ";
         System.out.println(complexGreetingProcessor(greeting));
         doNothingTwiceAsHard()
+        System.out.println("debug log line");
         doNothing();
     }
 
